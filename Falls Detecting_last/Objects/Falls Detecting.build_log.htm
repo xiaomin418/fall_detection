@@ -1,0 +1,123 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xiao min, bupt, LIC=RC930-B9UF7-FWZ2N-YTJMW-8WHZL-R42CR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.26.2.0
+Toolchain Path:  D:\Program Files (x86)\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      CMSIS_AGDI.dll V1.30.6.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\xiaomin\Desktop\Falls Detecting_last1\Falls Detecting_last\Falls Detecting.uvprojx
+Project File Date:  10/22/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Program Files (x86)\keil\ARM\ARMCC\Bin'
+Build target 'Falls Detecting'
+compiling gpio_input_interrupt.c...
+.\inc\global.h(75): warning:  #1-D: last line of file ends without a newline
+  extern double ezInt;
+board\gpio_input_interrupt.c(116): warning:  #177-D: variable "led_config"  was declared but never referenced
+      gpio_pin_config_t led_config = {
+board\gpio_input_interrupt.c(130): warning:  #177-D: variable "led_config"  was declared but never referenced
+      gpio_pin_config_t led_config = {
+board\gpio_input_interrupt.c: 3 warnings, 0 errors
+compiling cmsis_usart_interrupt_transfer.c...
+board\cmsis_usart.h(11): warning:  #1-D: last line of file ends without a newline
+  void uart4_Printf(char *pcFmt,...);
+.\inc\global.h(75): warning:  #1-D: last line of file ends without a newline
+  extern double ezInt;
+board\cmsis_usart_interrupt_transfer.c(221): warning:  #223-D: function "vsprintf" declared implicitly
+  		 vsprintf(pbString,pcFmt,ap);
+board\cmsis_usart_interrupt_transfer.c(239): warning:  #223-D: function "vsprintf" declared implicitly
+  		 vsprintf(pbString,pcFmt,ap);
+board\cmsis_usart_interrupt_transfer.c(262): warning:  #223-D: function "vsprintf" declared implicitly
+  		 vsprintf(pbString,pcFmt,ap);
+board\cmsis_usart_interrupt_transfer.c: 5 warnings, 0 errors
+compiling main.c...
+.\inc\global.h(75): warning:  #1-D: last line of file ends without a newline
+  extern double ezInt;
+.\board\cmsis_usart.h(11): warning:  #1-D: last line of file ends without a newline
+  void uart4_Printf(char *pcFmt,...);
+.\board\gpio_input_interrupt.h(1): warning:  #1295-D: Deprecated declaration init_gpio_irq3 - give arg types
+  void init_gpio_irq3();
+.\board\gpio_input_interrupt.h(2): warning:  #1295-D: Deprecated declaration init_gpio_irq2 - give arg types
+  void init_gpio_irq2();
+src\main.c: 4 warnings, 0 errors
+compiling global.c...
+.\inc\global.h(75): warning:  #1-D: last line of file ends without a newline
+  extern double ezInt;
+src\global.c: 1 warning, 0 errors
+compiling MPU9250.c...
+.\inc\global.h(75): warning:  #1-D: last line of file ends without a newline
+  extern double ezInt;
+.\board\cmsis_usart.h(11): warning:  #1-D: last line of file ends without a newline
+  void uart4_Printf(char *pcFmt,...);
+.\board\gpio_input_interrupt.h(1): warning:  #1295-D: Deprecated declaration init_gpio_irq3 - give arg types
+  void init_gpio_irq3();
+.\board\gpio_input_interrupt.h(2): warning:  #1295-D: Deprecated declaration init_gpio_irq2 - give arg types
+  void init_gpio_irq2();
+src\MPU9250.c: 4 warnings, 0 errors
+compiling LED.c...
+.\inc\global.h(75): warning:  #1-D: last line of file ends without a newline
+  extern double ezInt;
+.\board\cmsis_usart.h(11): warning:  #1-D: last line of file ends without a newline
+  void uart4_Printf(char *pcFmt,...);
+.\board\gpio_input_interrupt.h(1): warning:  #1295-D: Deprecated declaration init_gpio_irq3 - give arg types
+  void init_gpio_irq3();
+.\board\gpio_input_interrupt.h(2): warning:  #1295-D: Deprecated declaration init_gpio_irq2 - give arg types
+  void init_gpio_irq2();
+src\LED.c: 4 warnings, 0 errors
+compiling MPUIIC.c...
+.\inc\global.h(75): warning:  #1-D: last line of file ends without a newline
+  extern double ezInt;
+.\board\cmsis_usart.h(11): warning:  #1-D: last line of file ends without a newline
+  void uart4_Printf(char *pcFmt,...);
+.\board\gpio_input_interrupt.h(1): warning:  #1295-D: Deprecated declaration init_gpio_irq3 - give arg types
+  void init_gpio_irq3();
+.\board\gpio_input_interrupt.h(2): warning:  #1295-D: Deprecated declaration init_gpio_irq2 - give arg types
+  void init_gpio_irq2();
+src\MPUIIC.c: 4 warnings, 0 errors
+compiling analysis.c...
+.\inc\global.h(75): warning:  #1-D: last line of file ends without a newline
+  extern double ezInt;
+.\board\cmsis_usart.h(11): warning:  #1-D: last line of file ends without a newline
+  void uart4_Printf(char *pcFmt,...);
+.\board\gpio_input_interrupt.h(1): warning:  #1295-D: Deprecated declaration init_gpio_irq3 - give arg types
+  void init_gpio_irq3();
+.\board\gpio_input_interrupt.h(2): warning:  #1295-D: Deprecated declaration init_gpio_irq2 - give arg types
+  void init_gpio_irq2();
+src\analysis.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=31240 RO-data=2184 RW-data=276 ZI-data=3804  
+".\Objects\Falls Detecting.axf" - 0 Error(s), 29 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: NXP
+                http://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.MK64F12_DFP.10.0.4.pack
+                NXP.MK64F12_DFP.10.0.4
+                Device Family Pack for MK64F12
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Falls_Detecting
+  D:\Program Files (x86)\keil\ARM\PACK\NXP\MK64F12_DFP\10.0.4
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:11
+</pre>
+</body>
+</html>
